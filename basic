@@ -1,1 +1,6 @@
-镜像(images)，容器(c)，仓库（DockerRegister）
+关键字：  镜像(images)，容器(c)，仓库（DockerRegister），宿主机，虚拟机，k8s(kubenieter,容器集群的分布式管理平台),
+
+/可以理解为容器是镜像的一个实例，仓库就是hub，可以从服务器上push和pull
+/docker 可以理解为微型的linux系统，轻量级，一般仅具有基本的文件系统，
+/
+/对于Docker，应用的所有依赖都打包在Docker镜像中(如war包运行所依赖的EJB容器Tomcat和jdk一并打包成镜像）
